@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Paul",
+      "lastname": "Vega",
+      "username": "Polbored",
+      "phone": 933438510,
+      "company": "Evr",
+      "password": "Pass1234",
+      "email": "paul@gmail.com",
+      "birthday": "25/11/2002",
+      "subscription": "Free",
+      "idListProducts": 1,
+      "idListSales": 1,
+      "idListCustomers": 1,
+      "idListProviders": 1,
+      "idListShops": 1
+    }
+  ],
+  "list-customers": [
+    {
+      "id": 1,
+      "customers": [
+        {
+          "id": 1,
+          "name": "Roberto",
+          "lastname": "Perez",
+          "birthday": "25/11/1998",
+          "email": "robert@gmail.com",
+          "phone": 939383233
+        },
+        {
+          "id": 2,
+          "name": "Marco",
+          "lastname": "Collazos",
+          "birthday": "20/02/1990",
+          "email": "robert@gmail.com",
+          "phone": 943408163
+        }
+      ]
+    }
+  ],
+  "list-providers": [
+    {
+      "id": 1,
+      "providers": [
+        {
+          "id": 1,
+          "name": "Shang-In",
+          "phone": 987543172,
+          "ruc": 202020202230,
+          "email": "shangin@gmail.com",
+          "city": "lima",
+          "address": "Av. Los Jardines"
+        },
+        {
+          "id": 2,
+          "name": "TEKNO",
+          "phone": 987543172,
+          "ruc": 202020202230,
+          "email": "tekkno@gmail.com",
+          "city": "lima",
+          "address": "Av. Los Eucaliptos"
+        },
+        {
+          "id": 3,
+          "name": "ARTESCO",
+          "phone": 987543172,
+          "ruc": 202020202230,
+          "email": "artesco@gmail.com",
+          "city": "lima",
+          "address": "Av. Los Mangos"
+
+        }
+      ]
+    }
+  ],
+  "list-products": [
+    {
+      "id": 1,
+      "products": [
+        {
+          "id": 1,
+          "name": "Transistor CP-X234",
+          "type": "Transistor",
+          "unitPrice": 20,
+          "realPrice": 10,
+          "discount": 15,
+          "stock": 10,
+          "dateOfPurchase": "20/07/2022"
+        },
+        {
+          "id": 2,
+          "name": "Capacitor PX-X234",
+          "type": "Capacitor",
+          "unitPrice": 5,
+          "realPrice": 2,
+          "discount": 5,
+          "stock": 8,
+          "dateOfPurchase": "30/06/2023"
+        },
+        {
+          "id": 3,
+          "name": "Resistance CP-X234",
+          "type": "Resistance",
+          "unitPrice": 15,
+          "realPrice": 10,
+          "discount": 10,
+          "stock": 5,
+          "dateOfPurchase": "25/05/2023"
+        }
+      ]
+    }
+  ],
+  "list-sales": [
+    {
+      "id": 1,
+      "sales": [
+        {
+          "id": 1,
+          "customer-id": 1,
+          "date": "25/09/2023",
+          "totalCost": 70,
+          "listOfProducts": [
+            {
+              "id": 1,
+              "quantity": 10
+            },
+            {
+              "id": 2,
+              "quantity": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "list-shops": [
+    {
+      "id": 1,
+      "shops": [
+        {
+          "id": 1,
+          "title": "Compra Agosto ",
+          "totalPrice": 100,
+          "date": "20/11/2020",
+          "shoppedProducts": [
+            {
+              "idProduct": 1,
+              "idProvider": 1,
+              "quantity": 20,
+              "realPrice": 5,
+              "cost": 100
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
